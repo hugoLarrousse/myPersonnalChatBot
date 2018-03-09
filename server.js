@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const server = require('http').createServer(app);
+var io = require('socket.io')(server);
 
 const port = 8001;
 
@@ -13,7 +14,18 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get('/', function (req, res) {
-    res.status(200).send("ok");
+    res.sendFile(__dirname + '/index.html');
+});
+
+io.on('connection', function(socket){
+    console.log('a user connected');
+    socket.on('disconnect', function(){
+        console.log('user disconnected');
+    });
+    socket.on('chat message', function(msg){
+        console.log('message: ' + msg);
+        io.emit('chat message', msg);
+      });
 });
 
 server.listen(port, function (res) {
