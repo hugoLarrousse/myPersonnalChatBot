@@ -17,14 +17,15 @@
 
 ### What I want?
 #### First iteration :
-A bot who provide me information about essential at any moment of the day:
+A bot who provide me information about essential at any moment of the day: (as a half of a personal assistant)
 
 What is these informations?
-* weather
-* time
+* weather (in process)
+* time 
 * agenda
 * main news
 * google keep (things to do today)
+* remind things when  it's necessary
 * ...
 
 ### Second Iteration : 
@@ -41,7 +42,7 @@ I want a nodeJS app with a front
 * Front-end: html/css/javascript
 
 ### How much time per week?
-To be define 
+15 minutes per day
 
 ### Alone? 
 alone for now
