@@ -27,7 +27,7 @@ What is these informations?
 * google keep (things to do today)
 * ...
 
-### Second Iteration : 
+#### Second Iteration : 
 A bot who can update things for me?
 
 What are these things?
