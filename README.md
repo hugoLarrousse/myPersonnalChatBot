@@ -44,4 +44,4 @@ I want a nodeJS app with a front
 To be define 
 
 ### Alone? 
-alone for now
+yes, for now
