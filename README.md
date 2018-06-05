@@ -12,14 +12,12 @@
 - How develop the bot?
   * [x] technology?
   * [ ] time per week?
-  * [ ] alone?
 
 
 ### What I want?
 #### First iteration :
-A bot who provide me information about essential at any moment of the day:
+A chat bot who provide information about:
 
-What is these informations?
 * weather
 * time
 * agenda
@@ -28,9 +26,8 @@ What is these informations?
 * ...
 
 #### Second Iteration : 
-A bot who can update things for me?
+A chat bot who update information:
 
-What are these things?
 * Google agenda
 * Google keep
 * Launch program for me (scrip mongod or spotify for example)
@@ -42,6 +39,3 @@ I want a nodeJS app with a front
 
 ### How much time per week?
 To be define 
-
-### Alone? 
-alone for now
